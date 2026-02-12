@@ -6,6 +6,7 @@ import { HomePage } from '@/app/pages/HomePage';
 import { AboutPage } from '@/app/pages/AboutPage';
 import { ServicesPage } from '@/app/pages/ServicesPage';
 import { CareersPage } from '@/app/pages/CareersPage';
+import { ApplicationPage } from '@/app/pages/ApplicationPage';
 import { ContactPage } from '@/app/pages/ContactPage';
 
 export default function App() {
@@ -20,6 +21,7 @@ export default function App() {
             <Route path="/about" element={<AboutPage />} />
             <Route path="/services" element={<ServicesPage />} />
             <Route path="/careers" element={<CareersPage />} />
+            <Route path="/apply" element={<ApplicationPage />} />
             <Route path="/contact" element={<ContactPage />} />
           </Routes>
         </main>
