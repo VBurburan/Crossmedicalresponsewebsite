@@ -42,7 +42,7 @@ export function HomePage() {
               initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.3 }}
-              className="text-lg md:text-xl lg:text-2xl mb-8 text-gray-200"
+              className="text-lg md:text-xl lg:text-2xl mb-8 text-white font-medium drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]"
             >
               Your trusted ambulance service serving Eastern Kentucky's Appalachian region
             </motion.p>
